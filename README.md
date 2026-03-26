@@ -43,6 +43,7 @@ Thanks for your valuable contribution to the research community. 😃
 
 - [Books](#books)
 - [Surveys](#surveys)
+- [Benchmarks & Evaluation](#benchmarks--evaluation)
 - [Papers](#papers)
   - [2024](#2024)
   - [2023](#2023)
@@ -76,7 +77,25 @@ Thanks for your valuable contribution to the research community. 😃
 
 
 
+# Benchmarks & Evaluation
+
+* [Navigating the Pitfalls of Active Learning Evaluation: A Systematic Framework for Meaningful Performance Assessment](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1ed4723f12853cbd02aecb8160f5e0c9-Abstract-Conference.html). Carsten T. Lüth, Till J. Bungert, Lukas Klein, Paul F. Jaeger. (NeurIPS, 2023)
+* [nnActive: A Framework for Evaluation of Active Learning in 3D Biomedical Segmentation](https://openreview.net/forum?id=AJAnmRLJjJ). Carsten T. Lüth, Jonas Traub, Kim-Celine Kahl, Till J. Bungert, Lukas Klein, Lena Krämer, Paul F. Jaeger, Fabian Isensee, Klaus H. Maier-Hein. (TMLR, 2025) [[Code]](https://github.com/MIC-DKFZ/nnActive) [[Results]](https://huggingface.co/nnActive)
+* [Finally Outshining the Random Baseline: A Simple and Effective Solution for Active Learning in 3D Biomedical Imaging](https://arxiv.org/abs/2601.13677). Carsten T. Lüth, Jonas Traub, Kim-Celine Kahl, Till J. Bungert, Lukas Klein, Lena Krämer, Paul F. Jaeger, Klaus H. Maier-Hein, Fabian Isensee. (TMLR, 2026) [[Code]](https://github.com/MIC-DKFZ/nnActive) [[Results]](https://huggingface.co/nnActive)
+
 # Papers
+
+## 2026
+
+| Title        | Publication |  Paper  |  Code  | Tags | Notes |
+| --------     | :-----: |  :----: | :----: |----|----|
+|Finally Outshining the Random Baseline: A Simple and Effective Solution for Active Learning in 3D Biomedical Imaging|TMLR|[Paper](https://arxiv.org/abs/2601.13677)|[Code](https://github.com/MIC-DKFZ/nnActive) · [Results](https://huggingface.co/nnActive)| `Pool.`| First AL method consistently outperforming random baseline in 3D biomedical segmentation; practitioner guidelines included |
+
+## 2025
+
+| Title        | Publication |  Paper  |  Code  | Tags | Notes |
+| --------     | :-----: |  :----: | :----: |----|----|
+|nnActive: A Framework for Evaluation of Active Learning in 3D Biomedical Segmentation|TMLR|[Paper](https://openreview.net/forum?id=AJAnmRLJjJ)|[Code](https://github.com/MIC-DKFZ/nnActive) · [Results](https://huggingface.co/nnActive)| `Pool.`, `Cri.`| Largest AL benchmark to date: ~150k GPU hours, 8 methods × 4 datasets × 3 label regimes in 3D biomedical segmentation |
 
 ## 2024
 
@@ -93,6 +112,8 @@ Thanks for your valuable contribution to the research community. 😃
 | Title        | Publication |  Paper  |  Code  | Tags | Notes |
 | --------     | :-----: |  :----: | :----: |----|----|
 |Compute-Efficient Active Learning|NeurIPS 2023 Workshop ReALML|[Paper](https://openreview.net/pdf?id=G6ujG6LaKV)|[Code](https://github.com/aimotive/Compute-Efficient-Active-Learning) | `Pool.`, `Syn.` | Method-agnostic framework |
+
+|Navigating the Pitfalls of Active Learning Evaluation: A Systematic Framework for Meaningful Performance Assessment|NeurIPS 2023|[Paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1ed4723f12853cbd02aecb8160f5e0c9-Abstract-Conference.html)|[Code](https://github.com/sten2lu/realistic-al)| `Pool.`, `Cri.`| Identifies 5 AL evaluation pitfalls; large-scale benchmark |
 
 ## 2022
 
