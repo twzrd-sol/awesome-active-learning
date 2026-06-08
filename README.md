@@ -267,5 +267,4 @@ Thanks for your valuable contribution to the research community. 😃
 * [[BAAL] A Bayesian Active Learning Library](https://github.com/ElementAI/baal/). Atighehchian, Parmida and Branchaud-Charron, Frederic and Freyberg, Jan and Pardinas, Rafael and Schell, Lorne. (2019)
 * [ALiPy: Active Learning in Python](https://github.com/NUAA-AL/alipy). Ying-Peng Tang, Guo-Xiang Li, Sheng-Jun Huang. (NUAA, 2019)
 * [modAL: A modular active learning framework for Python](https://github.com/modAL-python/modAL). Tivadar Danka and Peter Horvath. (2018)
-
-
+* [TWZRD Agent Intel](https://intel.twzrd.xyz) - Trust scoring and identity verification for autonomous active learning agents on Solana. Verify agent wallet identity before automated annotation task assignments. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
